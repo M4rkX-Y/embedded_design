@@ -1,0 +1,32 @@
+|HW1
+OUT[0] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+OUT[1] <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+OUT[2] <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+OUT[3] <= inst44.DB_MAX_OUTPUT_PORT_TYPE
+OUT[4] <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+IN[0] => inst26.IN0
+IN[0] => inst3.IN0
+IN[0] => inst.IN0
+IN[0] => inst33.IN0
+IN[0] => inst35.IN0
+IN[0] => inst42.IN0
+IN[0] => inst38.IN0
+IN[0] => inst46.IN0
+IN[1] => inst3.IN1
+IN[1] => inst29.IN0
+IN[1] => inst36.IN0
+IN[1] => inst32.IN0
+IN[1] => inst41.IN0
+IN[1] => inst40.IN1
+IN[1] => inst46.IN1
+IN[1] => inst47.IN0
+IN[1] => inst49.IN0
+IN[2] => inst26.IN1
+IN[2] => inst39.IN1
+IN[2] => inst43.IN0
+IN[2] => inst38.IN1
+IN[2] => inst48.IN0
+IN[2] => inst45.IN1
+IN[2] => inst49.IN1
+
+

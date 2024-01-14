@@ -1,0 +1,30 @@
+|full_adder
+s <= half_adder:inst1.Sum
+x => half_adder:inst.SW[1]
+y => half_adder:inst.SW[0]
+z => half_adder:inst1.SW[0]
+c <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder|half_adder:inst1
+Sum <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst1.IN1
+SW[0] => inst4.IN0
+SW[0] => inst2.IN1
+SW[1] => inst5.IN0
+SW[1] => inst.IN0
+SW[1] => inst2.IN0
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder|half_adder:inst
+Sum <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst1.IN1
+SW[0] => inst4.IN0
+SW[0] => inst2.IN1
+SW[1] => inst5.IN0
+SW[1] => inst.IN0
+SW[1] => inst2.IN0
+Carry <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

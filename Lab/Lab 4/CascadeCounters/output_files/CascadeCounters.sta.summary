@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock'
+Slack : -5.052
+TNS   : -278.455
+
+Type  : Slow 1100mV 85C Model Hold 'clock'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'clock'
+Slack : -6.966
+TNS   : -126.662
+
+Type  : Slow 1100mV 85C Model Removal 'clock'
+Slack : 1.375
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.394
+TNS   : -80.833
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'debounce_p:debounceB|Counter32:CounterA|lpm_counter:LPM_COUNTER_component|cntr_6mi:auto_generated|counter_reg_bit[0]'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clock'
+Slack : -5.002
+TNS   : -273.311
+
+Type  : Slow 1100mV 0C Model Hold 'clock'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'clock'
+Slack : -6.685
+TNS   : -122.368
+
+Type  : Slow 1100mV 0C Model Removal 'clock'
+Slack : 0.963
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.394
+TNS   : -73.907
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'debounce_p:debounceB|Counter32:CounterA|lpm_counter:LPM_COUNTER_component|cntr_6mi:auto_generated|counter_reg_bit[0]'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clock'
+Slack : -2.777
+TNS   : -143.845
+
+Type  : Fast 1100mV 85C Model Hold 'clock'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'clock'
+Slack : -4.082
+TNS   : -57.985
+
+Type  : Fast 1100mV 85C Model Removal 'clock'
+Slack : 0.828
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.402
+TNS   : -54.205
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'debounce_p:debounceB|Counter32:CounterA|lpm_counter:LPM_COUNTER_component|cntr_6mi:auto_generated|counter_reg_bit[0]'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clock'
+Slack : -2.403
+TNS   : -117.902
+
+Type  : Fast 1100mV 0C Model Hold 'clock'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'clock'
+Slack : -3.496
+TNS   : -48.871
+
+Type  : Fast 1100mV 0C Model Removal 'clock'
+Slack : 0.713
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.438
+TNS   : -64.274
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'debounce_p:debounceB|Counter32:CounterA|lpm_counter:LPM_COUNTER_component|cntr_6mi:auto_generated|counter_reg_bit[0]'
+Slack : 0.335
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,150 @@
+Flow report for alu_design
+Wed Oct 04 17:02:34 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Wed Oct 04 17:02:29 2023       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; alu_design                                  ;
+; Top-level Entity Name           ; alu_design                                  ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 61 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 39 / 457 ( 9 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
+; Total DSP Blocks                ; 1 / 87 ( 1 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/04/2023 17:01:40 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; alu_design          ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 150241220802341.169645330026080        ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
+; MISC_FILE                           ; add8u.bsf                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; add8u_inst.v                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; add8u_bb.v                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; add8u.inc                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; add8u.cmp                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; sub8u.bsf                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; sub8u_inst.v                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; sub8u_bb.v                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; sub8u.inc                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; sub8u.cmp                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; mult8u.bsf                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; mult8u_inst.v                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; mult8u_bb.v                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; mult8u.inc                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; mult8u.cmp                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux8x4.bsf                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux8x4_inst.v                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux8x4_bb.v                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux8x4.inc                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux8x4.cmp                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; const32.bsf                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; const32_inst.v                         ; --            ; --          ; --         ;
+; MISC_FILE                           ; const32_bb.v                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; const32.inc                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; const32.cmp                            ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4864 MB             ; 00:00:08                           ;
+; Fitter               ; 00:00:30     ; 1.0                     ; 7816 MB             ; 00:01:21                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4832 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.2                     ; 5274 MB             ; 00:00:02                           ;
+; Total                ; 00:00:51     ; --                      ; --                  ; 00:01:34                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LEGION7-R9000P   ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LEGION7-R9000P   ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LEGION7-R9000P   ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LEGION7-R9000P   ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off alu_design -c alu_design
+quartus_fit --read_settings_files=off --write_settings_files=off alu_design -c alu_design
+quartus_asm --read_settings_files=off --write_settings_files=off alu_design -c alu_design
+quartus_sta alu_design -c alu_design
+
+
+

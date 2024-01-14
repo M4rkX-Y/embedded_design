@@ -1,0 +1,74 @@
+|display7_en
+a <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+EN => inst1.IN0
+EN => inst2.IN0
+EN => inst3.IN0
+EN => inst4.IN0
+EN => inst5.IN0
+EN => inst6.IN0
+EN => inst7.IN0
+SW[0] => display7:inst.In[0]
+SW[1] => display7:inst.In[1]
+SW[2] => display7:inst.In[2]
+SW[3] => display7:inst.In[3]
+b <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display7_en|display7:inst
+a <= or1.DB_MAX_OUTPUT_PORT_TYPE
+In[0] => and2.IN3
+In[0] => not2.IN0
+In[0] => not7.IN0
+In[0] => and3.IN2
+In[0] => not9.IN0
+In[0] => inst2.IN1
+In[0] => and7.IN2
+In[0] => and8.IN3
+In[0] => not11.IN0
+In[0] => and10.IN1
+In[0] => and9.IN2
+In[0] => and13.IN2
+In[1] => not5.IN0
+In[1] => not1.IN0
+In[1] => and4.IN1
+In[1] => not6.IN0
+In[1] => and5.IN1
+In[1] => inst3.IN0
+In[1] => and7.IN0
+In[1] => not14.IN0
+In[1] => not10.IN0
+In[1] => and10.IN0
+In[1] => and11.IN2
+In[1] => and13.IN1
+In[1] => not21.IN0
+In[2] => not4.IN0
+In[2] => and1.IN2
+In[2] => and4.IN0
+In[2] => and3.IN0
+In[2] => not8.IN0
+In[2] => inst.IN0
+In[2] => and7.IN1
+In[2] => not13.IN0
+In[2] => and6.IN0
+In[2] => not18.IN0
+In[2] => not16.IN0
+In[2] => and13.IN0
+In[2] => not20.IN0
+In[3] => not3.IN0
+In[3] => not12.IN0
+In[3] => not17.IN0
+In[3] => not15.IN0
+In[3] => not19.IN0
+b <= or2.DB_MAX_OUTPUT_PORT_TYPE
+c <= and5.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+d <= or3.DB_MAX_OUTPUT_PORT_TYPE
+f <= or4.DB_MAX_OUTPUT_PORT_TYPE
+g <= or5.DB_MAX_OUTPUT_PORT_TYPE
+
+

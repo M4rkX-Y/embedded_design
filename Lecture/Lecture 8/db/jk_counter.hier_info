@@ -1,0 +1,11 @@
+|jk_counter
+counter[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+counter[3] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+dir => inst11.IN0
+dir => inst9.IN1
+dir => inst10.IN1
+clock => inst.CLK
+
+

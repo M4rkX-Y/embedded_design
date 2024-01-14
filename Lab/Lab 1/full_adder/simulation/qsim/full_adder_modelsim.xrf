@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/yang.zhenm/Desktop/full_adder/full_adder.bdf
+source_file = 1, C:/Users/yang.zhenm/Desktop/full_adder/half_adder.bdf
+design_name = full_adder
+instance = comp, \s~output , s~output, full_adder, 1
+instance = comp, \c~output , c~output, full_adder, 1
+instance = comp, \z~input , z~input, full_adder, 1
+instance = comp, \x~input , x~input, full_adder, 1
+instance = comp, \y~input , y~input, full_adder, 1
+instance = comp, \inst1|inst3~0 , inst1|inst3~0, full_adder, 1

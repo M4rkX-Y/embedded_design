@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/yang.zhenm/Desktop/four_bit_adder/simulation/qsim
+vfour_bit_adder
+Z0 !s110 1695227591
+!i10b 1
+!s100 5Aedm4W1:bD3?QOm]2`d32
+I:EB=4EHRh1SJfli7FJBT;1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Mark/OneDrive - Northeastern University/Embeded/Lab/Lab 1/four_bit_adder/simulation/qsim
+w1695227590
+8four_bit_adder.vo
+Ffour_bit_adder.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1695227591.000000
+!s107 four_bit_adder.vo|
+!s90 -work|work|four_bit_adder.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vfour_bit_adder_vlg_vec_tst
+R0
+!i10b 1
+!s100 <i=LJGJjga]ZQmlDE<g5j3
+IekiDWzFji^91:nhW_gCcN0
+R1
+R2
+w1695227589
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R5
+R6

@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Mark/OneDrive - Northeastern University/Embeded/Lecture/Lecture 8/jk_counter.bdf
+source_file = 1, C:/Users/Mark/OneDrive - Northeastern University/Embeded/Lecture/Lecture 8/Waveform.vwf
+source_file = 1, C:/Users/Mark/OneDrive - Northeastern University/Embeded/Lecture/Lecture 8/Waveform1.vwf
+source_file = 1, C:/Users/Mark/OneDrive - Northeastern University/Embeded/Lecture/Lecture 8/Waveform2.vwf
+source_file = 1, C:/Users/Mark/OneDrive - Northeastern University/Embeded/Lecture/Lecture 8/db/jk_counter.cbx.xml
+design_name = jk_counter
+instance = comp, \counter[3]~output , counter[3]~output, jk_counter, 1
+instance = comp, \counter[2]~output , counter[2]~output, jk_counter, 1
+instance = comp, \counter[1]~output , counter[1]~output, jk_counter, 1
+instance = comp, \counter[0]~output , counter[0]~output, jk_counter, 1
+instance = comp, \clock~input , clock~input, jk_counter, 1
+instance = comp, \inst~0 , inst~0, jk_counter, 1
+instance = comp, \dir~input , dir~input, jk_counter, 1
+instance = comp, \inst1~0 , inst1~0, jk_counter, 1
+instance = comp, \inst2~0 , inst2~0, jk_counter, 1
+instance = comp, \inst4~0 , inst4~0, jk_counter, 1
